@@ -46,6 +46,11 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+/* A elements that do have a class should inherit the color style */
+a[class] {
+  color: inherit;
+}
+
 /* Make images easier to work with */
 img {
   max-width: 100%;
